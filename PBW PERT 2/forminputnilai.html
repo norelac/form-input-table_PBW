@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Nilai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Form Input Nilai</h2>
+        <table>
+            <tr>
+                <td>Nama Mahasiswa</td>
+                <td><input type="text" name="nama" placeholder="Masukkan nama mahasiswa" required></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td><input type="text" name="nim" placeholder="Masukkan NIM" required></td>
+            </tr>
+            <tr>
+                <td>Mata Kuliah</td>
+                <td><input type="text" name="matakuliah" placeholder="Masukkan mata kuliah" required></td>
+            </tr>
+            <tr>
+                <td>Nilai</td>
+                <td><input type="number" name="nilai" min="0" max="100" placeholder="Masukkan nilai" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button type="submit">Simpan</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

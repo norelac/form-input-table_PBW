@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <p>nama : <input type="text" placeholder="silakan isi" name="nama"></p>
+        <p>jenis kelamin :
+            <input type="radio" name="gender" value="laki-laki">laki-laki
+            <input type="radio" name="gender" value="perempuan" checked>perempuan
+        </p>
+        <p> Program Studi
+            <select name="prodi" id="prodi">
+                <option value="ti">Teknik Informatika</option>
+                <option value="si">Sistem Informasi</option>
+                <option value="dkv">DKV</option>
+            </select>
+        </p>
+        <p>
+            Pertanyaan :
+            <textarea name="pertanyaan" id="pertanyaan" cols="30" rows="10"
+                placeholder="silakan isi pertanyaan anda"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="konfirmasi" value="konfirmasi" checked> Saya setuju dengan syarat dan ketentuan
+            yang berlaku
+        </p>
+        <p><button type="submit" name="simpan">simpan</button></p>
+    </form>
+</body>
+
+</html>
